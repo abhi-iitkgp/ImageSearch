@@ -12,3 +12,5 @@ adding feature to pick a file from repository and extract text from it
 Next features to be added:
 Search text to retrieve all images having that text.
 .........................
+
+Testing github merge tool.
