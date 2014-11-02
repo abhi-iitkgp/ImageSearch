@@ -1,0 +1,38 @@
+﻿<Page
+    x:Class="ImageSearch.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:ImageSearch"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="100"/>
+        </Grid.RowDefinitions>
+        
+        <Button Name="btn_filepick" Content="pick file" Grid.Row="0" HorizontalAlignment="Center" Click="btn_filepick_Click"/>        
+        <Image Grid.Row="1"  Name="img_selected"/>
+        
+        <Grid Grid.Row="2">
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150"/>
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <Button  Name="btn_getText" Grid.Column="0" Content="get text" HorizontalAlignment="Center" Click="btn_getText_Click" />
+        
+            <ScrollViewer Grid.Column="1">
+                <TextBlock Name="txt_extracted" MinWidth="80" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </ScrollViewer>
+            
+        </Grid>
+                
+    </Grid>
+</Page>

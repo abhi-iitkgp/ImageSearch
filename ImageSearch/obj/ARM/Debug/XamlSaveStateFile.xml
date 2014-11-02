@@ -1,0 +1,7 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\abhinav\documents\visual studio 2013\projects\imagesearch\imagesearch\obj\arm\debug\intermediatexaml\imagesearch.exe" HashGuid="4835c15e-13ab-e566-b187-407b5c1d9db0" />
+    <ReferenceAssembly PathName="c:\program files (x86)\microsoft sdks\windowsphoneapp\v8.1\extensionsdks\microsoft.vclibs\12.0\references\commonconfiguration\neutral\platform.winmd" HashGuid="58b6b6d1-928e-9908-9804-eb460e5e101b" />
+    <ReferenceAssembly PathName="c:\users\abhinav\documents\visual studio 2013\projects\imagesearch\packages\microsoft.windows.ocr.1.0.0\lib\wpa81\arm\windowspreview.media.ocr.winmd" HashGuid="a5310a53-1cc2-dceb-da35-610421ecb7df" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
