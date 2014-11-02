@@ -13,4 +13,4 @@ Next features to be added:
 Search text to retrieve all images having that text.
 .........................
 
-Testing github merge tool.
+
