@@ -124,15 +124,17 @@ namespace ImageSearch.ImageSearch_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[3];
+            _typeNameTable = new string[4];
             _typeNameTable[0] = "ImageSearch.MainPage";
             _typeNameTable[1] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[3] = "ImageSearch.SearchPage";
 
-            _typeTable = new global::System.Type[3];
+            _typeTable = new global::System.Type[4];
             _typeTable[0] = typeof(global::ImageSearch.MainPage);
             _typeTable[1] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[3] = typeof(global::ImageSearch.SearchPage);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -168,6 +170,7 @@ namespace ImageSearch.ImageSearch_XamlTypeInfo
         }
 
         private object Activate_0_MainPage() { return new global::ImageSearch.MainPage(); }
+        private object Activate_3_SearchPage() { return new global::ImageSearch.SearchPage(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -192,6 +195,13 @@ namespace ImageSearch.ImageSearch_XamlTypeInfo
 
             case 2:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::ImageSearch.ImageSearch_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 3:   //  ImageSearch.SearchPage
+                userType = new global::ImageSearch.ImageSearch_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
+                userType.Activator = Activate_3_SearchPage;
+                userType.SetIsLocalType();
+                xamlType = userType;
                 break;
             }
             return xamlType;
@@ -527,5 +537,6 @@ namespace ImageSearch.ImageSearch_XamlTypeInfo
         }
     }
 }
+
 
 

@@ -35,3 +35,46 @@ c:\users\abhinav\documents\visual studio 2013\Projects\ImageSearch\ImageSearch\o
 c:\users\abhinav\documents\visual studio 2013\Projects\ImageSearch\ImageSearch\obj\ARM\Debug\qualifiers.txt.intermediate
 c:\users\abhinav\documents\visual studio 2013\Projects\ImageSearch\ImageSearch\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\abhinav\documents\visual studio 2013\Projects\ImageSearch\ImageSearch\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\OcrResources\MsOcrRes.orp
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\App.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\MainPage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\SearchPage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\ImageSearch.xr.xml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\ImageSearch.exe
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\ImageSearch.pdb
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\resources.pri
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\AppxManifest.xml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\ImageSearch.build.appxrecipe
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\WindowsPreview.Media.Ocr.winmd
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\WindowsPreview.Media.Ocr.dll
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\WindowsPreview.Media.Ocr.xml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\App.g.i.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\App.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\MainPage.g.i.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\MainPage.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\SearchPage.g.i.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\SearchPage.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\XamlTypeInfo.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\App.xaml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\MainPage.xaml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\App.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\MainPage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\XamlSaveStateFile.xml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\SearchPage.xaml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\SearchPage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ImageSearch.exe
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ImageSearch.pdb
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ImageSearch.csproj.GenerateResource.Cache
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\priconfig.xml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\priconfig.xml.intermediate
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\layout.resfiles
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\layout.resfiles.intermediate
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\resources.resfiles
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\resources.resfiles.intermediate
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\pri.resfiles
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\pri.resfiles.intermediate
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\qualifiers.txt
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\qualifiers.txt.intermediate
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ProjectArchitectures.txt
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ImageSearch.csprojResolveAssemblyReference.cache

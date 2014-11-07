@@ -13,7 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto" />
             <RowDefinition Height="*"/>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="100"/>
         </Grid.RowDefinitions>
         
         <Button x:ConnectionId='1' Name="btn_filepick" Content="pick file" Grid.Row="0" HorizontalAlignment="Center"                           />        
@@ -27,7 +27,11 @@
             </Grid.ColumnDefinitions>
 
             <Button x:ConnectionId='2'  Name="btn_getText" Grid.Column="0" Content="get text" HorizontalAlignment="Center"                           />
-            <TextBlock Name="txt_extracted" Grid.Column="1" MinWidth="80" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>            
+        
+            <ScrollViewer Grid.Column="1">
+                <TextBlock Name="txt_extracted" MinWidth="80" Text="" VerticalAlignment="Center" HorizontalAlignment="Center"/>
+            </ScrollViewer>
+            
         </Grid>
                 
     </Grid>

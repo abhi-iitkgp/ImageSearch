@@ -50,7 +50,7 @@ namespace ImageSearch
             var file = await Windows.ApplicationModel.Package.Current.InstalledLocation.GetFileAsync("Assets\\SQuotes.jpg");
             LoadImage(file);      
         }
-
+        
         private async void LoadImage(Windows.Storage.StorageFile file)
         {
             img_properties = await file.Properties.GetImagePropertiesAsync();
@@ -60,10 +60,10 @@ namespace ImageSearch
             bitmap.SetSource(file_stream);
             img_selected.Source = bitmap;
         }
-
+        
         private async void btn_getText_Click(object sender, RoutedEventArgs e)
         {
-            String extracted_text = "";
+            String extracted_text = "";            
             var ocrResult = await ocrEngine.RecognizeAsync(img_properties.Height, img_properties.Width, bitmap.PixelBuffer.ToArray());
 
             if(ocrResult.Lines != null)
