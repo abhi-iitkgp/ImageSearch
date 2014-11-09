@@ -16,11 +16,22 @@
             <RowDefinition Height="*" />
         </Grid.RowDefinitions>
         
-        <TextBlock Text="Search Text:" Grid.Row="0" />
+        <TextBlock Text="Search Text:" Grid.Row="0" FontSize="20"/>
         <TextBox x:ConnectionId='1'                           Grid.Row="1" Name="search_input" Margin="10,5,10,5" />
-        <TextBlock Text="Search Results: " Grid.Row="2"/>
+        
+        <Grid Grid.Row="2">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="auto" />
+                <ColumnDefinition Width="auto" />
+            </Grid.ColumnDefinitions>
+            
+            <TextBlock Text="Search Results: " Grid.Column="0" FontSize="20"/>
+            <TextBlock Text="" Grid.Column="1" Margin="5,0,0,0" Name="status_txtblock" FontWeight="Bold" FontSize="20" />            
+        </Grid> 
+        
         <Grid Grid.Row="3" Margin="10,5,10,5">
-            <ListBox x:Name="matching_images" ScrollViewer.VerticalScrollBarVisibility="Visible">
+            <ListBox x:ConnectionId='2' x:Name="matching_images" ScrollViewer.VerticalScrollBarVisibility="Visible"                                            >
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <StackPanel>

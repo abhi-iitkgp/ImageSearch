@@ -78,3 +78,8 @@ C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\qualifie
 C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ProjectArchitectures.txt
 C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ImageSearch.csprojResolveAssemblyReference.cache
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Debug\ShowImage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ShowImage.g.i.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ShowImage.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ShowImage.xaml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Debug\ShowImage.xbf

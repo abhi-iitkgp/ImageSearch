@@ -79,3 +79,13 @@ C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\qualif
 C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\MultipleQualifiersPerDimensionFound.txt
 C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\ProjectArchitectures.txt
 C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\ImageSearch.csprojResolveAssemblyReference.cache
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\ShowImage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\ShowImage.g.i.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\ShowImage.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\ShowImage.xaml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\ShowImage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\IndexPage.xbf
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\IndexPage.g.i.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\IndexPage.g.cs
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\IndexPage.xaml
+C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\obj\ARM\Release\IndexPage.xbf

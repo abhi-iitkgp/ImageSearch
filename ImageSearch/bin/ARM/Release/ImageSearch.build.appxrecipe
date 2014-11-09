@@ -67,11 +67,17 @@
     <AppxPackagedFile Include="C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\IndexPage.xbf">
+      <PackagePath>IndexPage.xbf</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\SearchPage.xbf">
       <PackagePath>SearchPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\ShowImage.xbf">
+      <PackagePath>ShowImage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\abhinav\Documents\GitHub\ImageSearch\ImageSearch\bin\ARM\Release\ImageSearch.xr.xml">
       <PackagePath>ImageSearch.xr.xml</PackagePath>

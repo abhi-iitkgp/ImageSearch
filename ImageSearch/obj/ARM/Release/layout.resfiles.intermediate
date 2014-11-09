@@ -8,8 +8,10 @@ Assets\StoreLogo.scale-240.png
 Assets\WideLogo.scale-240.png
 App.xbf
 ImageSearch.xr.xml
+IndexPage.xbf
 MainPage.xbf
 SearchPage.xbf
+ShowImage.xbf
 Images\user1.png
 Images\user2.png
 OcrResources\MsOcrRes.orp

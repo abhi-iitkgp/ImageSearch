@@ -52,7 +52,6 @@ namespace ImageSearch
                 this.DebugSettings.EnableFrameRateCounter = true;
             }
 #endif
-
             Frame rootFrame = Window.Current.Content as Frame;
 
             // Do not repeat app initialization when the Window already has content,
@@ -92,7 +91,7 @@ namespace ImageSearch
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(SearchPage), e.Arguments))
+                if (!rootFrame.Navigate(typeof(IndexPage), e.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }

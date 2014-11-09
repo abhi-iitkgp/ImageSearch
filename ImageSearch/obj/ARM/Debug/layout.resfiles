@@ -10,6 +10,7 @@ App.xbf
 ImageSearch.xr.xml
 MainPage.xbf
 SearchPage.xbf
+ShowImage.xbf
 Images\user1.png
 Images\user2.png
 OcrResources\MsOcrRes.orp

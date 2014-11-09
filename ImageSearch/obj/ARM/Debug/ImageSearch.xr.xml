@@ -49,6 +49,9 @@
       <RootProperty Name="Text" />
       <RootProperty Name="VerticalAlignment" />
       <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="Margin" />
+      <RootProperty Name="FontWeight" />
     </RootType>
     <RootType FullName="ImageSearch.MainPage" />
     <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
@@ -58,6 +61,7 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
       <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="DoubleTapped" />
     </RootType>
     <RootType FullName="Windows.UI.Xaml.DataTemplate">
       <RootProperty Name="Template" />
@@ -67,5 +71,6 @@
     </RootType>
     <RootType FullName="Windows.UI.Xaml.Data.Binding" />
     <RootType FullName="ImageSearch.SearchPage" />
+    <RootType FullName="ImageSearch.ShowImage" />
   </Roots.RootTypes>
 </Roots>

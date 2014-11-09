@@ -17,6 +17,7 @@ using Windows.Storage;
 using Windows.Storage.Streams;
 using Windows.Graphics.Imaging;
 using Windows.Storage.FileProperties;
+using Windows.Storage.Search;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkID=390556
 
@@ -46,8 +47,11 @@ namespace ImageSearch
         {
             if(e.Key == Windows.System.VirtualKey.Enter)
             {
+                search_input.IsReadOnly = true;
+                status_txtblock.Text = "(Retrieving results...)";
+                
                 this.matching_images.ItemsSource = null;
-                string search_text = search_input.Text.Trim();
+                string search_text = search_input.Text.Trim();              
 
                 if(search_text.Length == 0)
                 {
@@ -55,6 +59,7 @@ namespace ImageSearch
                 }
                 else
                 {
+                    search_text = search_text.ToLower();
                     retrieveResults(search_text);
                 }
             }
@@ -90,11 +95,14 @@ namespace ImageSearch
             }
 
             this.matching_images.ItemsSource = dataSource1;
+            status_txtblock.Text = "(Done retrieving results)";
+            search_input.IsReadOnly = false;
         }
 
         private async void retriveAllPhotos()
         {
-            IReadOnlyList<StorageFile> all_pictures = await KnownFolders.CameraRoll.GetFilesAsync();
+//          status_txtblock.Text = "(Retrieving all photos)";
+            IReadOnlyList<StorageFile> all_pictures = await KnownFolders.CameraRoll.GetFilesAsync(CommonFileQuery.DefaultQuery, 0, 5);
             List<ImageItem> dataSource1 = new List<ImageItem>();
 
             foreach (StorageFile file in all_pictures)
@@ -107,9 +115,8 @@ namespace ImageSearch
                 dataSource1.Add(img_item);
             }
 
+//          status_txtblock.Text = "(Done retrieving photos)";
             this.matching_images.ItemsSource = dataSource1;
-
-            new Indexer().indexImages();
         }
 
         public class ImageItem
@@ -125,6 +132,15 @@ namespace ImageSearch
                 get;
                 set;
             }
+        }
+
+        private void matching_images_DoubleTapped(object sender, DoubleTappedRoutedEventArgs e)
+        {
+            ImageItem image_item = (ImageItem)matching_images.SelectedValue;
+            string name = image_item.Name;
+
+            Frame.Navigate(typeof(ShowImage), name);
+            search_input.Text = name;
         }
     }
 }
